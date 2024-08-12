@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name    = "viewport" content                                                  = "width=device-width, initial-scale=1.0">
+<link rel     = "preconnect" href                                                   = "https://fonts.googleapis.com">
+<link rel     = "preconnect" href                                                   = "https://fonts.gstatic.com" crossorigin>
+<link href    = "https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel = "stylesheet">
+<link rel     = "stylesheet" href                                                   = "./style.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    <div class = "head">
+        <img src="./converter.png" class="converter" alt="money converter image">
+        <h1>CURRENCY CONVERTER</h1>
+
+    </div>
+    <div    class = "container">
+    <div    class = "upperbox">
+    <div    class = "box1">
+    <select name  = "currency" id = "inputCurrency1" class = "currency"></select>
+
+   
+        </div>
+
+        <div    class = "box2">
+        <select name  = "currency" id = "inputCurrency2"  class = "currency"></select>
+        </div>
+
+    </div>
+
+
+
+        <div   class = "inputValue">
+        <div   class = "ipbox1">
+        <input type  = "number" id = "inpbox1">
+    </div>
+    <div   class = "ipbox2">
+    <input type  = "number" id = "inpbox2">
+    </div>
+        </div>
+
+        <div id="conversion-result"></div>
+        <button class = "btn" onclick = "convertion()" id = "conbtn">Convert 🔃</button>
+    
+    </div>
+    
+   
+    <script src = "./script.js"></script>
+</body>
+</html>
